@@ -1,0 +1,58 @@
+https://www.nobleui.com/html/template/demo2/pages/apps/calendar.html#
+
+
+
+<!-- mysqli database connection -->
+
+<?php
+$db_connection = mysqli_connect("localhost:3306","wicketsx_wicketsx","L[eH545m.U4Ipv","wicketsx_7wicket");
+
+
+
+
+?>
+
+// $isTrue = false;
+
+// if($agent_name){
+//     $_SESSION['agent_name'] = $agent_name;
+// }else{
+//     $_SESSION['error_message'] ='Fill Agent name with Only letter ';
+//     $isTrue = true;
+// }
+// if($agent_phone){
+//     $_SESSION['agent_phone'] = $agent_phone;
+// }
+// else{
+//     $_SESSION['error_phone_message'] ='Please, give agent name';
+//     $isTrue = true;
+// }
+// if($agent_whatsapp){
+//     $_SESSION['agent_whatsapp'] = $agent_whatsapp;
+// }else{
+//     $_SESSION['error_whatsapp_message'] ='Please, give agent name';
+//     $isTrue = true;
+// }
+// if($agent_type){
+//     $_SESSION['agent_type'] = $agent_type;
+// }else{
+//     $_SESSION['error_type_message'] ='Please, give agent name';
+//     $isTrue = true;
+// }
+
+
+
+
+
+// if(!$isTrue){
+//     $data_insert_query = "INSERT INTO agent_infos (agent_name,agent_phone,agent_messanger,agent_whatsapp,agent_type,agent_id,agent_refer_id,agent_rating) 
+//     VALUES('$agent_name','$agent_phone','$agent_messanger','$agent_whatsapp','$agent_type','$agent_id','$agent_refer_id','$agent_rating')";
+//     mysqli_query($db_connection,$data_insert_query);
+
+//     header('location: ../backend_page/agent_add.php');
+//     $_SESSION['agent_adding_message'] = "Agent successfully added";
+// }else{
+
+//     header('location: ../backend_page/agent_add.php');
+
+// }
